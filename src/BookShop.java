@@ -1,6 +1,4 @@
 public class BookShop {
-
-
     // Creating an instance and printing
     public static void main(String[] args) {
         Book book = new Book ("Things fall apart ", "Gift");
@@ -8,8 +6,6 @@ public class BookShop {
         System.out.println(book.title);
         System.out.println(book.author);
         System.out.println(book.isbn);
-
-
 
 //Using Constructor to create multiple instances of the class with different parameter and printing the value
         Book Book = new Book(book.title, book.author);
@@ -34,27 +30,12 @@ public class BookShop {
         System.out.println(Book4.author);
         System.out.println(Book4.isbn);
 
-       // Task 3. Constructor with two parameters and printing them out
-        String title;
-        String author;
-
-        public Book = new Book(String title,String author) {
-        }
-            title = title;
-            author = author;
-            isbn = "Unknown";
-
+        // creating an instance with two parameters
         Book book1 = new Book("Revolution", "Napoleon");
-        System.out.println(title);
+        System.out.println(title.);
         System.out.println(author);
 
 
-        // Creating a default constructor
-        public book (String author, long isbn ) {
-
-            author = "Unknown";
-            isbn = 0000000000;
-        }
 
 
 
